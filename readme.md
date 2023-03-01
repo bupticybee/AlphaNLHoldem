@@ -4,7 +4,7 @@
 
 This is an implementation of a self-play non-limit texas holdem ai, using TensorFlow and ray. While heavily inspired by UCAS's work of Alpha Holdem, it's not a offical implementation of Alpha Holdem.
 
-This is a proof of concept project, so rlcard's nl-holdem env was used. It's a 50bb 1v1 env, not the standard 100bb ACPC one, and bet sizes are slightly different than ACPC.
+This is a proof of concept project, rlcard's nl-holdem env was used. It's a 50bb 1v1 env, not the standard 100bb ACPC one, and bet sizes are slightly different than ACPC.
 
 I asked a few pro holdem players to play against this ai for some dozen games. They report that the ai's moves are all logical. They did not observe any significant mistakes.
 
