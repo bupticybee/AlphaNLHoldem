@@ -1,6 +1,6 @@
 # Alpha NL Holdem
 
-![](imgs/logo.png)
+![logo](imgs/logo.png)
 
 This is an implementation of a self-play non-limit texas holdem ai, using TensorFlow and ray. While heavily inspired by UCAS's work of Alpha Holdem, it's not a offical implementation of Alpha Holdem.
 
@@ -16,7 +16,7 @@ I asked a few pro holdem players to play against this ai for some dozen games. T
 # Getting Started
 This project assumes you have the following:
 1. Conda environment ([Anaconda](https://www.anaconda.com/) /[Miniconda](https://docs.conda.io/en/latest/miniconda.html)) 
-2. python 3.7+ 
+2. Python 3.7+ 
 
 Install dependences:
 
@@ -41,7 +41,7 @@ Yes, it's a small tool I write to play against AI, Yes, it looks bad. But it wor
 
 By default you are playing against an NN opponent which has been trained for about a week.
 
-![](imgs/play_against_ai.jpg)
+![play_against_ai](imgs/play_against_ai.jpg)
 
 ## Trainning
 
@@ -66,7 +66,7 @@ python3 train_league.py --conf confs/nl_holdem.py --sp 0.0 --upwin 1.0 --gap=500
 
 Winrate against history agents will be displayed in the stdout log.
 
-![](imgs/trainig.jpg)
+![training](imgs/trainig.jpg)
 
 ### Restore training
 
@@ -87,4 +87,4 @@ It would auto load all training weights and continue training.
 
 # Known Issues
 1. Rlcard environment sucks, 50bb pot, wrong pot sizes, wrong action order after flop, I don't know where to start. But it's the only environment I konw out there suitable for this task.
-2. Even after ~ 1 billion self-play, over 1000 checkpoints, the model seems still not converge, still improving itself, I really don't know when it will converge.
+2. Even after ~ 1 billion self-play, over 1000 checkpoints, the model seems still not converge, still improving itself, I really don't know when it will converge. It could be some bug, not sure.
