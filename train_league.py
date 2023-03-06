@@ -32,7 +32,6 @@ ModelCatalog.register_custom_model('NlHoldemLgNet', NlHoldemLgNet)
 
 from agi.league import League
 from ray.rllib.agents.impala.impala import ImpalaTrainer
-from agi.mis import init_cluster_ray
 
 def static_vars(**kwargs):
     def decorate(func):
@@ -59,8 +58,6 @@ args = parser.parse_args()
 
 if args.mode == "local":
     ray.init()
-elif args.mode == "remote":
-    init_cluster_ray(log_to_driver=False)
 else:
     raise RuntimeError("unknown mode: {}".format(args.mode))
 
