@@ -81,7 +81,8 @@ It would auto load all training weights and continue training.
 # Released data
 
 1. Weights of all checkpoints in the process of a week of training, ~ 1 billion of selfplay games:
-    https://drive.google.com/file/d/1G_GwTaVe4syCwW43DauwSQi6FqjRS3nj/view?usp=sharing
+    Google Drive:   https://drive.google.com/file/d/1G_GwTaVe4syCwW43DauwSQi6FqjRS3nj/view?usp=sharing
+    Baidu  Drive:   https://pan.baidu.com/s/1PYNLKN2CExRntVvkvYyKkA?pwd=7jmn
 2. Evaluation metrics and part of results: see ```nl-evaluation.ipynb```
     
 
