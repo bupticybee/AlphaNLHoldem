@@ -94,4 +94,8 @@ It would auto load all training weights and continue training.
 
 [GNU AGPL v3](https://www.gnu.org/licenses/agpl-3.0.en.html)
 
+# Warning
+
+It's illegal to use this code in any way to commercial purpose, including researching project inside a commercial entity.  
+
 
