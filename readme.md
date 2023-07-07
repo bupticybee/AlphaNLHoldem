@@ -89,3 +89,9 @@ It would auto load all training weights and continue training.
 # Known Issues
 1. Rlcard environment sucks, 50bb pot, wrong pot sizes, wrong action order after flop, I don't know where to start. But it's the only environment I konw out there suitable for this task.
 2. Even after ~ 1 billion self-play, over 1000 checkpoints, the model seems still not converge, still improving itself, I really don't know when it will converge. It could be some bug, not sure.
+
+# License
+
+[GNU AGPL v3](https://www.gnu.org/licenses/agpl-3.0.en.html)
+
+
