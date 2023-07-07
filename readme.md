@@ -98,4 +98,5 @@ It would auto load all training weights and continue training.
 
 It's illegal to use this code in any way to commercial purpose, including researching project inside a commercial entity.  
 
+Especially for Chinese company JJ world(竞技世界). You'd better look elseware.
 
